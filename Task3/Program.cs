@@ -6,13 +6,13 @@
 7 -> нет */
 
 Console.Write("Веведите число: ");
-int numN1 = int.Parse(Console.ReadLine());
-int numN2 = numN1%2;
-if (numN2 == 0) 
+int numN1 = int.Parse(Console.ReadLine());              // Вводим число
+int numN2 = numN1%2;                                    // Вычисляем остаток от деления на 2
+if (numN2 == 0)                                         // Сравниваем остаток с 0
 {
-    Console.WriteLine("Число "+numN1+" четное.");
+    Console.WriteLine("Число "+numN1+" четное.");       // Если остаток равен 0, выводим четное число
 }
 else
 {
-    Console.WriteLine("Число "+numN1+" нечетное.");
+    Console.WriteLine("Число "+numN1+" нечетное.");     // Если остаток неравен 0, выводим нечетное число
 }

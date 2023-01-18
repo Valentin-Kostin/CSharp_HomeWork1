@@ -5,15 +5,15 @@ a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3*/
 
 Console.Write("Веведите число A: ");
-int num1 = int.Parse(Console.ReadLine());
+    int num1 = int.Parse(Console.ReadLine()); // Вводим первое число
 Console.Write("Веведите число B: ");
-int num2 = int.Parse(Console.ReadLine());
+    int num2 = int.Parse(Console.ReadLine()); // Вводим первое число
 
-if (num1 > num2)
+if (num1 > num2) // Сравниваем введённые числа
 {
-    Console.WriteLine("Число А = "+num1+" больше числа В = "+num2);
+    Console.WriteLine("Число А = "+num1+" больше числа В = "+num2); // Выводим результат если А больше В
 }
 else 
 {
-    Console.WriteLine("Число A = "+num1+" меньше числа B = "+num2);
+    Console.WriteLine("Число A = "+num1+" меньше числа B = "+num2); // Выводим результат если А меньше В
 }

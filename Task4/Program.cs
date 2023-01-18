@@ -5,11 +5,11 @@
 8 -> 2, 4, 6, 8 */
 
 Console.Write("Веведите число: ");
-int num = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine());    // Вводим число
 
-int count = 2;
-while (count <= num) 
+int count = 2;                              // Вводим счетчик, присваиваем ему минимальное четное число 2
+while (count <= num)                        // запускаем цикл пока счетчик меньше либо равен числу
 {
-    Console.Write(count+", ");
-    count = count + 2;
+    Console.Write(count+", ");              // выводим значение счетчика
+    count = count + 2;                      // прибавляем к счетчику минимальное четное число 2
 }
